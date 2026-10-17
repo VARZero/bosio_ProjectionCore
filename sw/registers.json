@@ -1,0 +1,12 @@
+{
+  "control": 0,
+  "return": 16,
+  "texture": 24,
+  "descriptors": 36,
+  "scene": 48,
+  "texture_words": 60,
+  "descriptor_words": 68,
+  "scene_words": 76,
+  "job_count": 84,
+  "written_cells": 92
+}

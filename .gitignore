@@ -1,0 +1,10 @@
+build/
+.Xil/
+__pycache__/
+*.py[cod]
+*.log
+*.jou
+*.str
+*.pb
+sw/board_results.json
+sw/m32_memory_scene.npz

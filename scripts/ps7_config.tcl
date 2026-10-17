@@ -1,0 +1,12 @@
+# PS settings copied from the existing local PYNQ-Z2 block design.
+set_property CONFIG.PCW_CLK0_FREQ {100000000} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_CLK1_FREQ {10000000} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_CLK2_FREQ {10000000} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_CLK3_FREQ {10000000} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_DDR_RAM_HIGHADDR {0x1FFFFFFF} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_FPGA_FCLK0_ENABLE {1} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_UIPARAM_ACT_DDR_FREQ_MHZ {533.333374} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_USE_M_AXI_GP0 {1} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_USE_S_AXI_HP0 {1} [get_bd_cells ps7_0]
+set_property CONFIG.PCW_USE_S_AXI_HP1 {0} [get_bd_cells ps7_0]

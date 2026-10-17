@@ -1,0 +1,23 @@
+{
+  "scope": "standalone M32 projection only",
+  "date_kst": "2026-10-17",
+  "board": "PYNQ-Z2",
+  "clock_mhz": 100,
+  "system": {
+    "LUT": 4096,
+    "FF": 6569,
+    "DSP": 36,
+    "BRAM36_tiles": 2.5
+  },
+  "projector_hierarchy": {
+    "LUT": 3215,
+    "FF": 5457,
+    "DSP": 36,
+    "BRAM36_tiles": 2.5
+  },
+  "routed_setup_wns_ns": 0.111,
+  "routed_hold_whs_ns": 0.027,
+  "board_tests_passed": 14,
+  "full_scene_equal_after_software_culling": true,
+  "performance_scope": "sequential correctness prototype; no texture cache; not one cell per clock"
+}
